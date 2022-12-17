@@ -1,4 +1,5 @@
 {
+  "homepage": "http://williamsantosa.github.io/",
   "name": "williamsantosa-website",
   "version": "1.0.0",
   "description": "William Santosa's website",
@@ -6,10 +7,10 @@
   "license": "UNLICENSED",
   "repository": "none",
   "dependencies": {
-    "@mui/material": "*", 
-    "@emotion/react": "*", 
+    "@emotion/react": "*",
     "@emotion/styled": "*",
     "@mui/icons-material": "*",
+    "@mui/material": "*",
     "prop-types": "*",
     "react": "*",
     "react-dom": "*",
@@ -25,10 +26,13 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
     "eslint-plugin-testing-library": "*",
+    "gh-pages": "^4.0.0",
     "react-scripts": "*"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --coverage",
     "lint": "eslint src --ignore-pattern validity.test.js --ext .js --ext .jsx",
     "zip": "bestzip CSE186-Assignment5-Submission.zip src/*"
