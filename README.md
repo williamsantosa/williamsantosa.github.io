@@ -1,3 +1,3 @@
 # williamsantosa.github.io
 
-William Santosa's website.
+If you're looking for William Santosa's website, [click here](https://williamsantosa.github.io/williamsantosa-website/).
