@@ -1,4 +1,7 @@
 <script lang="ts">
+	import ProjectCard from '$lib/ProjectCard.svelte';
+	import EmploymentCard from '$lib/EmploymentCard.svelte';
+
 	let textToCopy = 'williamwsantosa@gmail.com';
 
 	function copyText() {
@@ -21,16 +24,16 @@
 			<p class="text-primary-content text-base">
 				Hi! I'm a software engineer with professional experience in infrastructure, databases,
 				system design, and configurations. I earned my master's degree in computer science from UCLA
-				and graduated summa cum laude with a bachelor's degree in computer science from UCSC. Beyond
-				work, I enjoy editing and filming videos, building hobby projects, rock climbing, playing
-				games, and collecting stuffed animals.
+				and graduated summa cum laude with a bachelor's degree in computer science from UCSC. In my
+				spare time, I enjoy climbing, reading, editing and filming videos with my friends, and
+				adopting stuffed animals.
 			</p>
 			<button
 				on:click={copyText}
 				class="text-secondary-content btn btn-sm btn-ghost p-0 text-base underline"
 			>
 				williamwsantosa@gmail.com
-				<img src="/clipboard.svg" alt="Copy" class="inline-block h-4 w-4" />
+				<img src="/icons/clipboard.svg" alt="Copy" class="inline-block h-4 w-4" />
 			</button>
 			<div class="grid grid-flow-col">
 				<button class="text-base-content btn btn-ghost px-0 text-lg">
@@ -39,7 +42,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/email.svg" alt="Email" class="inline-block h-8 w-8" />
+						<img src="/icons/email.svg" alt="Email" class="inline-block h-8 w-8" />
 					</a>
 				</button>
 				<button class="text-base-content btn btn-ghost px-1 text-lg">
@@ -48,17 +51,17 @@
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="/linkedin.svg" alt="LinkedIn" class="inline-block h-8 w-8" />
+						<img src="/icons/linkedin.svg" alt="LinkedIn" class="inline-block h-8 w-8" />
 					</a>
 				</button>
 				<button class="text-base-content btn btn-ghost px-0 text-lg">
 					<a href="https://github.com/williamsantosa" target="_blank" rel="noopener noreferrer">
-						<img src="/github.svg" alt="GitHub" class="inline-block h-8 w-8" />
+						<img src="/icons/github.svg" alt="GitHub" class="inline-block h-8 w-8" />
 					</a>
 				</button>
 			</div>
 		</div>
-		<div class="avatar">
+		<div class="avatar hidden md:block">
 			<div class="mask mask-squircle h-screen w-[90%]">
 				<img src="/favicon.svg" alt="William Santosa Logo" />
 			</div>
@@ -67,43 +70,49 @@
 </div>
 
 <div class="divider m-0"></div>
-
-<div class="flex w-full flex-col lg:flex-row px-2 py-1">
+<div class="flex w-full flex-col px-2 py-1 lg:flex-row">
 	<div class="w-full p-2 md:w-1/2">
-		<div class="card lg:card-side bg-base-200 shadow-sm">
-			<figure>
-				<img
-					src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-					alt="Album"
-				/>
-			</figure>
-			<div class="card-body">
-				<h2 class="card-title">New album is released!</h2>
-				<p>Click the button to listen on Spotiwhy app.</p>
-				<div class="card-actions justify-end">
-					<button class="btn btn-primary">Listen</button>
-				</div>
-			</div>
-		</div>
+		<p class="m-2 text-center text-4xl">Now</p>
 	</div>
-
 	<div class="w-full p-2 md:w-1/2">
-		<div class="card lg:card-side bg-base-200 shadow-sm">
-			<figure>
-				<img
-					src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-					alt="Album"
-				/>
-			</figure>
-			<div class="card-body">
-				<h2 class="card-title">New album is released!</h2>
-				<p>Click the button to listen on Spotiwhy app.</p>
-				<div class="card-actions justify-end">
-					<button class="btn btn-primary">Listen</button>
-				</div>
-			</div>
-		</div>
+		<p class="m-2 text-center text-4xl hidden md:block">Building</p>
 	</div>
 </div>
 
+<div class="flex w-full flex-col px-2 py-1 lg:flex-row">
+	<EmploymentCard
+		position="Software Engineer, Infrastructure Group"
+		company="Roblox"
+		date="July 2025 - Present"
+		description="A web app that allows you to listen to music and podcasts on Spotify."
+		imageUrl="/employment/roblox.jpg"
+		alt="Album"
+		technologies={['React', 'TypeScript', 'Tailwind CSS']}
+		buttons={[
+			{
+				text: 'Listen',
+				url: 'https://spotiwhy.com'
+			}
+		]}
+	/>
+
+	<ProjectCard
+		title="Not Clash v2"
+		description="Second iteration of the original Not Clash discord bot. Facilitates League of Legends matches, stores player and match information in SQLite database, and provides concurrent matchmaking based off Elo rating with many players."
+		imageUrl="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+		alt="League of Legends Character"
+		technologies={['JavaScript', 'Node.js', 'SQLite', 'Discord.js']}
+		buttons={[
+			{
+				text: 'GitHub',
+				url: 'https://github.com/williamsantosa/Not-Clash-v2'
+			}
+		]}
+	/>
+</div>
+
 <div class="divider m-0"></div>
+<p class="m-2 text-center text-4xl">Projects</p>
+
+<div class="divider m-0"></div>
+<p class="m-2 text-center text-4xl">Experience</p>

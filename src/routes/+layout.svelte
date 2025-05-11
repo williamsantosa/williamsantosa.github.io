@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </svelte:head>
 
-<div class="navbar top-0 left-0 text-neutral-content bg-transparent backdrop-blur z-50 fixed transition-all duration-300">
+<div class="navbar top-0 left-0 text-neutral-content bg-transparent backdrop-blur z-50 fixed transition-all duration-300 invisible md:visible">
 	<div class="navbar-start">
 		<p class="text-base-content btn-ghost text-3xl px-6">William Santosa</p>
 	</div>
