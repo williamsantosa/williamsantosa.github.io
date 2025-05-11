@@ -19,11 +19,11 @@
 			<p class="text-base-content text-7xl leading-none font-bold">William Santosa</p>
 			<p class="text-primary-content text-4xl">Software Engineer</p>
 			<p class="text-primary-content text-base">
-				Hi! I'm a software engineer with professional experience in infrastructure, database
-				management systems, system design, and configurations. I earned my master's degree in
-				computer science from UCLA and graduated summa cum laude with a bachelor's degree in
-				computer science from UCSC. Beyond work, I enjoy editing and filming videos, rock climbing,
-				playing games, and collecting stuffed animals.
+				Hi! I'm a software engineer with professional experience in infrastructure, databases,
+				system design, and configurations. I earned my master's degree in computer science from UCLA
+				and graduated summa cum laude with a bachelor's degree in computer science from UCSC. Beyond
+				work, I enjoy editing and filming videos, building hobby projects, rock climbing, playing
+				games, and collecting stuffed animals.
 			</p>
 			<button
 				on:click={copyText}
@@ -33,17 +33,25 @@
 				<img src="/clipboard.svg" alt="Copy" class="inline-block h-4 w-4" />
 			</button>
 			<div class="grid grid-flow-col">
-				<button class="text-base-content btn btn-ghost text-lg px-0">
-					<a href="mailto:williamwsantosa@gmail.com?subject=Lets connect!" target="_blank" rel="noopener noreferrer">
+				<button class="text-base-content btn btn-ghost px-0 text-lg">
+					<a
+						href="mailto:williamwsantosa@gmail.com?subject=Lets connect!"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src="/email.svg" alt="Email" class="inline-block h-8 w-8" />
 					</a>
 				</button>
-				<button class="text-base-content btn btn-ghost text-lg px-1">
-					<a href="https://www.linkedin.com/in/williamsantosa" target="_blank" rel="noopener noreferrer">
+				<button class="text-base-content btn btn-ghost px-1 text-lg">
+					<a
+						href="https://www.linkedin.com/in/williamsantosa"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src="/linkedin.svg" alt="LinkedIn" class="inline-block h-8 w-8" />
 					</a>
 				</button>
-				<button class="text-base-content btn btn-ghost text-lg px-0">
+				<button class="text-base-content btn btn-ghost px-0 text-lg">
 					<a href="https://github.com/williamsantosa" target="_blank" rel="noopener noreferrer">
 						<img src="/github.svg" alt="GitHub" class="inline-block h-8 w-8" />
 					</a>
@@ -58,6 +66,44 @@
 	</div>
 </div>
 
-<div class="divider"></div>
+<div class="divider m-0"></div>
 
-<p>Hi</p>
+<div class="flex w-full flex-col lg:flex-row px-2 py-1">
+	<div class="w-full p-2 md:w-1/2">
+		<div class="card lg:card-side bg-base-200 shadow-sm">
+			<figure>
+				<img
+					src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+					alt="Album"
+				/>
+			</figure>
+			<div class="card-body">
+				<h2 class="card-title">New album is released!</h2>
+				<p>Click the button to listen on Spotiwhy app.</p>
+				<div class="card-actions justify-end">
+					<button class="btn btn-primary">Listen</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="w-full p-2 md:w-1/2">
+		<div class="card lg:card-side bg-base-200 shadow-sm">
+			<figure>
+				<img
+					src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+					alt="Album"
+				/>
+			</figure>
+			<div class="card-body">
+				<h2 class="card-title">New album is released!</h2>
+				<p>Click the button to listen on Spotiwhy app.</p>
+				<div class="card-actions justify-end">
+					<button class="btn btn-primary">Listen</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="divider m-0"></div>
