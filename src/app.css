@@ -1,6 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
 @import "tailwindcss";
 
 @plugin "daisyui" {
     themes: retro --default;
+}
+
+@layer base {
+    html {
+        font-family: "Merriweather", "Roboto", sans-serif;
+    }
 }
