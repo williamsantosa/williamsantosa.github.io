@@ -15,17 +15,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </svelte:head>
 
-<div class="navbar text-neutral-content bg-transparent fixed">
+<div class="navbar text-neutral-content bg-transparent fixed z-50">
 	<div class="navbar-start">
 		<button class="text-base-content btn btn-ghost text-xl">William Santosa</button>
 	</div>
 
-	<div class="navbar-center">
+	<!-- <div class="navbar-center">
 		<a class="text-base-content btn btn-ghost text-xl">daisyUI</a>
-	</div>
+	</div> -->
 
 	<div class="navbar-end">
-		<button class="text-base-content btn btn-ghost text-xl">Github</button>
+		<button class="text-base-content btn btn-ghost text-xl"><a href="https://www.linkedin.com/in/williamsantosa" target="_blank" rel="noopener noreferrer">LinkedIn</a></button>
+		<button class="text-base-content btn btn-ghost text-xl"><a href="https://github.com/williamsantosa" target="_blank" rel="noopener noreferrer">Github</a></button>
+		<button class="text-base-content btn btn-ghost text-xl">Resume</button>
 	</div>
 </div>
 
