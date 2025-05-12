@@ -165,7 +165,12 @@ Proposed and implemented persistent storage option, automatically uploading new 
 		imageUrl="/employment/scipp.jpg"
 		alt="Album"
 		technologies={['Python', 'Keras', 'TensorFlow', 'matplotlib', 'pandas', 'dBase', 'Jupyter Notebook']}
-		buttons={[]}
+		buttons={[
+			{
+				text: 'Website',
+				url: 'https://scipp.science.ucsc.edu/'
+			}
+		]}
 	/>
 </div>
 
@@ -182,17 +187,35 @@ Social & Wellness Director for the UCLA Association of Indonesian Americans."
 		imageUrl="/education/logo_UCLA_blue_boxed.png"
 		alt="Album"
 		technologies={[]}
-		buttons={[]}
+		buttons={[
+			{
+				text: 'Degree',
+				url: 'https://grad.ucla.edu/programs/computer-science/'
+			},
+			{
+				text: 'Website',
+				url: 'https://www.ucla.edu/'
+			},
+		]}
 	/>
 
 	<EmploymentCard
 		position="Bachelor of Science in Computer Science"
 		company="UCSC"
 		date="July 2020 - June 2023"
-		description="Summa Cum Laude, graduated with highest honors in major. Coursework includes database systems, computational models, analysis of algorithms, computer system design, computer architecture, and computer graphics."
+		description="Graduated summa cum laude with highest honors in major. Coursework includes database systems, computational models, analysis of algorithms, computer system design, computer architecture, and computer graphics."
 		imageUrl="/education/logo_UCSC.jpg"
 		alt="Album"
 		technologies={[]}
-		buttons={[]}
+		buttons={[
+			{
+				text: 'Degree',
+				url: 'https://bpb-us-w2.wpmucdn.com/wordpress.ucsc.edu/dist/2/88/files/2023/09/CS_BS_20-21-1.pdf'
+			},
+			{
+				text: 'Website',
+				url: 'https://www.ucsc.edu/'
+			},
+		]}
 	/>
 </div>

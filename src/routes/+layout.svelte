@@ -65,4 +65,10 @@
 			<p class="m-0">© {new Date().getFullYear()} William Santosa - All Rights Reserved</p>
 		</aside>
 	</div>
+	<div class="ml-auto grid-flow-col gap-4">
+		<button class="text-base-content btn btn-ghost px-0 text-base">
+			<a href="/#">To The Surface</a>
+			<img src="/icons/uparrow.svg" alt="Arrow Up" class="inline-block h-4 w-4" />
+		</button>
+	</div>
 </footer>
