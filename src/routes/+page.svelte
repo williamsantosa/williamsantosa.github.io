@@ -118,7 +118,7 @@
 		date="April 2024 - June 2024"
 		description="Artificlal Life Zombie Apocalypse Simulation written in Unity utililizing boid behavior, behavior trees, L systems, A star algorithm, raytracing, and more."
 		imageUrl="/projects/lastofsus.gif"
-		alt="Simulation"
+		alt="Simulation wwith zombies, l systems, and boids"
 		technologies={['Unity', 'C#']}
 		buttons={[
 			{
@@ -136,8 +136,8 @@
 		title="Hand Cropper"
 		date="May 2024 - June 2024"
 		description="Real-time hand cropper using active contour snakes, convex-hull algorithm, and various other optimization techniques."
-		imageUrl=""
-		alt="Cropping Hand"
+		imageUrl="/projects/handcropper.gif"
+		alt="Hand cropper application in action"
 		technologies={['Python', 'MediaPipe', 'OpenCV', 'Matplotlib']}
 		buttons={[
 			{
