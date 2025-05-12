@@ -52,7 +52,7 @@
 {@render children()}
 
 <footer class="footer sm:footer-horizontal bg-base-300 text-base-content p-4 items-center flex">
-	<div class="flex items-center gap-4">
+	<div class="flex items-center gap-2">
 		<button class="text-base-content btn btn-ghost px-1 text-sm">
 			<a
 				href="https://github.com/williamsantosa/personal-website"

@@ -95,27 +95,124 @@
 			}
 		]}
 	/>
-	
+
 	<div class="divider divider-horizontal m-0"></div>
 
 	<ProjectCard
-		title="Not Clash v2"
-		date="January 2023"
-		description="Second iteration of the original Not Clash discord bot. Facilitates League of Legends matches, stores player and match information in SQLite database, and provides concurrent matchmaking based off Elo rating with many players."
-		imageUrl="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-		alt="League of Legends Character"
-		technologies={['JavaScript', 'Node.js', 'SQLite', 'Discord.js']}
-		buttons={[
-			{
-				text: 'GitHub',
-				url: 'https://github.com/williamsantosa/Not-Clash-v2'
-			}
-		]}
+		title="Studio Management Application v2"
+		date="July 2025 - Present"
+		description=""
+		imageUrl=""
+		alt=""
+		technologies={[]}
+		buttons={[]}
 	/>
 </div>
 
 <div class="divider m-0"></div>
 <p class="m-2 text-center text-4xl">Projects</p>
+
+<div class="flex w-full flex-col px-2 py-1 lg:flex-row">
+	<ProjectCard
+		title="Last of Sus: Zombie Apocalypse Simulation"
+		date="April 2024 - June 2024"
+		description="Artificlal Life Zombie Apocalypse Simulation written in Unity utililizing boid behavior, behavior trees, L systems, A star algorithm, raytracing, and more."
+		imageUrl=""
+		alt="Simulation"
+		technologies={['Unity', 'C#']}
+		buttons={[
+			{
+				text: 'Report',
+				url: 'https://github.com/williamsantosa/williamsantosa/blob/main/Misc/CS_275_S24_Report.pdf'
+			},
+			{
+				text: 'Code',
+				url: 'https://github.com/Last-of-sus/main/tree/main'
+			}
+		]}
+	/>
+
+	<ProjectCard
+		title="Hand Cropper"
+		date="May 2024 - June 2024"
+		description="Real-time hand cropper using active contour snakes, convex-hull algorithm, and various other optimization techniques."
+		imageUrl=""
+		alt="Cropping Hand"
+		technologies={['Python', 'MediaPipe', 'OpenCV', 'Matplotlib']}
+		buttons={[
+			{
+				text: 'Report',
+				url: 'https://github.com/williamsantosa/williamsantosa/blob/main/Misc/CS_269_S24_Report.pdf'
+			},
+			{
+				text: 'Code',
+				url: 'https://github.com/williamsantosa/Not-Clash-v2'
+			}
+		]}
+	/>
+
+	<ProjectCard
+		title="Inverse Kinematics Human"
+		date="Feubrary 2023 - March 2023"
+		description="Second iteration of the original Not Clash discord bot. Facilitates League of Legends matches, stores player and match information in SQLite database, and provides concurrent matchmaking based off Elo rating with many players."
+		imageUrl=""
+		alt="League of Legends Character"
+		technologies={['JavaScript', 'Node.js', 'Three.js', 'WebGL']}
+		buttons={[
+			{
+				text: 'Code',
+				url: 'https://github.com/williamsantosa/CS174C-Assignment2'
+			}
+		]}
+	/>
+</div>
+
+<div class="flex w-full flex-col px-2 py-1 lg:flex-row">
+	<ProjectCard
+		title="NoteScript"
+		date="February 2023"
+		description="Full stack web application that generate notes from transcripts."
+		imageUrl=""
+		alt="Front Page"
+		technologies={['JavaScript', 'Node.js', 'Flask', 'OpenAI API']}
+		buttons={[
+			{
+				text: 'Code',
+				url: 'https://github.com/williamsantosa/TFC-Boston-Hackathon-2023'
+			}
+		]}
+	/>
+
+	<ProjectCard
+		title="Not Clash v2"
+		date="January 2023"
+		description="Second iteration of the original Not Clash discord bot. Facilitates League of Legends matches, stores player and match information in SQLite database, and provides concurrent matchmaking based off Elo rating with many players."
+		imageUrl=""
+		alt="League of Legends Character"
+		technologies={['JavaScript', 'Node.js', 'SQLite', 'Discord.js']}
+		buttons={[
+			{
+				text: 'Code',
+				url: 'https://github.com/williamsantosa/Not-Clash-v2'
+			}
+		]}
+	/>
+
+	<ProjectCard
+		title="YouToo"
+		date="August 2022 - September 2022"
+		description="Desktop application for fast and convenient downloading of YouTube videos for offline access."
+		imageUrl=""
+		alt="YouTube Logo"
+		technologies={['Python', 'PyQt6', 'PyTube']}
+		buttons={[
+			{
+				text: 'Code',
+				url: 'https://github.com/williamsantosa/YouToo'
+			}
+		]}
+	/>
+</div>
 
 <div class="divider m-0"></div>
 <p class="m-2 text-center text-4xl">Employment</p>
@@ -141,9 +238,7 @@
 		position="Software Engineering Intern"
 		company="Maxar Technologies"
 		date="June 2022 - September 2022"
-		description="Designed and developed internal system feature for satellites including the Galaxy-31 and Galaxy-32 Intelsat C-band Satellites launched by SpaceX.
-Automated and optimized weekly database installations of telemetry data using Bash scripts, Python, and unit tests, saving over 3 hours of work weekly.
-Proposed and implemented persistent storage option, automatically uploading new telemetry information to physical data stores upon change."
+		description="Developed internal features for Intelsat’s Galaxy-31 and Galaxy-32 C-band satellites launched by SpaceX. Automated weekly telemetry database installs with Bash and Python, saving 3+ hours per week. Proposed and implemented persistent storage to auto-upload updated telemetry data."
 		imageUrl="/employment/maxar.jpg"
 		alt="Album"
 		technologies={['Python', 'Bash', 'Shell']}
@@ -161,10 +256,18 @@ Proposed and implemented persistent storage option, automatically uploading new 
 		position="Research Assistant"
 		company="Santa Cruz Institute for Particle Physics"
 		date="March 2022 - June 2022"
-		description="Collaborated on machine learning program with Professor Jason Nielsen and team to identify Higgs boson particle's correlating variables from sample size of over 200,000 events."
+		description="Collaborated with Professor Jason Nielsen and team on a machine learning project to identify variables correlated with the Higgs boson from 200,000+ particle collision events."
 		imageUrl="/employment/scipp.jpg"
 		alt="Album"
-		technologies={['Python', 'Keras', 'TensorFlow', 'matplotlib', 'pandas', 'dBase', 'Jupyter Notebook']}
+		technologies={[
+			'Python',
+			'Keras',
+			'TensorFlow',
+			'matplotlib',
+			'pandas',
+			'dBase',
+			'Jupyter Notebook'
+		]}
 		buttons={[
 			{
 				text: 'Website',
@@ -181,7 +284,7 @@ Proposed and implemented persistent storage option, automatically uploading new 
 	<EmploymentCard
 		position="Master of Science in Computer Science"
 		company="UCLA"
-		date="September 2023 - May 2025"
+		date="September 2023 - June 2025"
 		description="Coursework includes software engineering, database systems/mining, artificial intelligence and life, and computer vision.
 Social & Wellness Director for the UCLA Association of Indonesian Americans."
 		imageUrl="/education/logo_UCLA_blue_boxed.png"
@@ -195,7 +298,7 @@ Social & Wellness Director for the UCLA Association of Indonesian Americans."
 			{
 				text: 'Website',
 				url: 'https://www.ucla.edu/'
-			},
+			}
 		]}
 	/>
 
@@ -215,7 +318,7 @@ Social & Wellness Director for the UCLA Association of Indonesian Americans."
 			{
 				text: 'Website',
 				url: 'https://www.ucsc.edu/'
-			},
+			}
 		]}
 	/>
 </div>

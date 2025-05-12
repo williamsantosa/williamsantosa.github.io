@@ -25,7 +25,7 @@
 
 <div class="w-full p-2 md:w-full lg:w-1/2">
 	<div class="card lg:card-side bg-base-200 shadow-sm justify-start w-full h-full">
-		<figure class="flex-shrink-0 md:h-[400px] lg:w-[45%] w-60% w-full h-full overflow-hidden">
+		<figure class="flex-shrink-0 md:h-[400px] lg:w-[45%] w-60% w-full h-full">
 			<img
 				src={imageUrl}
 				alt={alt}
