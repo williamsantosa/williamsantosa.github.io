@@ -1,6 +1,7 @@
 <script lang="ts">
 	let {
 		title,
+		date,
 		description,
 		imageUrl,
         alt,
@@ -8,6 +9,7 @@
 		buttons
 	}: {
 		title: string;
+		date: string;
 		description: string;
 		imageUrl: string;
         alt: string;
@@ -19,9 +21,9 @@
 	} = $props();
 </script>
 
-<div class="w-full p-2 md:w-1/2">
+<div class="w-full p-2 md:w-full lg:w-1/2">
 	<div class="card lg:card-side bg-base-200 shadow-sm justify-start w-full h-full">
-		<figure class="flex-shrink-0 md:h-[400px] md:w-[45%] w-full h-full overflow-hidden">
+		<figure class="flex-shrink-0 md:h-[400px] lg:w-[45%] w-60% w-full h-full overflow-hidden">
 			<img
 				src={imageUrl}
 				alt={alt}
@@ -30,12 +32,14 @@
 		</figure>
 		<div class="card-body">
 			<h2 class="card-title">{title}</h2>
+			<p class="text-sm">{date}</p>
 			<p class="">{description}</p>
-            <div class="flex flex-wrap gap-2 h-full">
+            <div class="flex flex-wrap gap-2">
                 {#each technologies as technology}
                     <span class="badge badge-outline">{technology}</span>
                 {/each}
             </div>
+			<div class="flex flex-wrap h-full"></div> <!-- Added to keep all the elements at the top of card lol -->
 			<div class="card-actions justify-end">
                 {#each buttons as button}
                     <button class="btn btn-primary">
