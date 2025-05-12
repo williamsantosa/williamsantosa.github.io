@@ -117,7 +117,7 @@
 		title="Last of Sus: Zombie Apocalypse Simulation"
 		date="April 2024 - June 2024"
 		description="Artificlal Life Zombie Apocalypse Simulation written in Unity utililizing boid behavior, behavior trees, L systems, A star algorithm, raytracing, and more."
-		imageUrl=""
+		imageUrl="/projects/lastofsus.gif"
 		alt="Simulation"
 		technologies={['Unity', 'C#']}
 		buttons={[
@@ -153,10 +153,10 @@
 
 	<ProjectCard
 		title="Inverse Kinematics Human"
-		date="Feubrary 2023 - March 2023"
-		description="Second iteration of the original Not Clash discord bot. Facilitates League of Legends matches, stores player and match information in SQLite database, and provides concurrent matchmaking based off Elo rating with many players."
-		imageUrl=""
-		alt="League of Legends Character"
+		date="February 2024 - March 2024"
+		description="Simulation of a human arm tracing on a blackboard using inverse kinematics with Jacobian-based methods and kinematic modeling."
+		imageUrl="/projects/ikhuman.gif"
+		alt="Articulated human model tracing a path on blackboard"
 		technologies={['JavaScript', 'Node.js', 'Three.js', 'WebGL']}
 		buttons={[
 			{
@@ -172,7 +172,7 @@
 		title="NoteScript"
 		date="February 2023"
 		description="Full stack web application that generate notes from transcripts."
-		imageUrl=""
+		imageUrl="/projects/notescript.png"
 		alt="Front Page"
 		technologies={['JavaScript', 'Node.js', 'Flask', 'OpenAI API']}
 		buttons={[
@@ -187,8 +187,8 @@
 		title="Not Clash v2"
 		date="January 2023"
 		description="Second iteration of the original Not Clash discord bot. Facilitates League of Legends matches, stores player and match information in SQLite database, and provides concurrent matchmaking based off Elo rating with many players."
-		imageUrl=""
-		alt="League of Legends Character"
+		imageUrl="/projects/reksai.jpeg"
+		alt="Primordian Rek'Sai Splash Art"
 		technologies={['JavaScript', 'Node.js', 'SQLite', 'Discord.js']}
 		buttons={[
 			{
@@ -199,10 +199,28 @@
 	/>
 
 	<ProjectCard
+		title="A Guide to the UCSC's CS Majors"
+		date="January 2023 - March 2023"
+		description="Collaborated in a team of three to create a guide to UCSC's Bachelor of Science/Arts in Computer Science and Bachelor of Science in Computer Science: Computer Game Design majors. Contains descriptions of courses, programming languages, professors, and graduation requirements."
+		imageUrl="/projects/ucsc_campus.jpg"
+		alt="Campus Image"
+		technologies={[]}
+		buttons={[
+			{
+				text: 'Code',
+				url: 'https://github.com/williamsantosa/ucsc-cs'
+			}
+		]}
+	/>
+</div>
+
+<div class="flex w-full flex-col px-2 py-1 lg:flex-row">
+	<div class="hidden lg:block w-full p-2 md:w-full lg:w-1/2"></div> <!-- Empty div to center the card -->
+	<ProjectCard
 		title="YouToo"
 		date="August 2022 - September 2022"
 		description="Desktop application for fast and convenient downloading of YouTube videos for offline access."
-		imageUrl=""
+		imageUrl="/projects/youtube.png"
 		alt="YouTube Logo"
 		technologies={['Python', 'PyQt6', 'PyTube']}
 		buttons={[
@@ -212,8 +230,8 @@
 			}
 		]}
 	/>
+	<div class="hidden lg:block w-full p-2 md:w-full lg:w-1/2"></div> <!-- Empty div to center the card -->
 </div>
-
 <div class="divider m-0"></div>
 <p class="m-2 text-center text-4xl">Employment</p>
 
@@ -286,7 +304,7 @@
 		company="UCLA"
 		date="September 2023 - June 2025"
 		description="Coursework includes software engineering, database systems/mining, artificial intelligence and life, and computer vision.
-Social & Wellness Director for the UCLA Association of Indonesian Americans."
+Served as the Social & Wellness Director for the UCLA Association of Indonesian Americans during the 2024 school year."
 		imageUrl="/education/logo_UCLA_blue_boxed.png"
 		alt="Album"
 		technologies={[]}
