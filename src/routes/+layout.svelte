@@ -9,7 +9,6 @@
 	<meta name="description" content="William Santosa - Software Engineer" />
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 	<link rel="apple-touch-icon" href="/favicon.svg" type="image/svg+xml" />
-	<link rel="manifest" href="/manifest.webmanifest" />
 	<meta name="theme-color" content="#000000" />
 	<meta
 		name="viewport"
