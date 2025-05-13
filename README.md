@@ -1,4 +1,4 @@
-# Williamsantosa Website
+# Personal Website
 
 Website written in TypeScript with Svelte 5, daisyUI, and Tailwind CSS. Deployed on CloudFlare.
 
