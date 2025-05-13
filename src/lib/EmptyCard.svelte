@@ -1,0 +1,1 @@
+<div class="hidden lg:block w-full p-2 md:w-full lg:w-1/2"></div>
