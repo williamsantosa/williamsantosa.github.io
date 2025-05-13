@@ -102,8 +102,8 @@
 		title="Studio Management Application v2"
 		date="July 2025 - Present"
 		description=""
-		imageUrl=""
-		alt=""
+		imageUrl="/projects/placeholder.svg"
+		alt="Placeholder Image"
 		technologies={[]}
 		buttons={[]}
 	/>
