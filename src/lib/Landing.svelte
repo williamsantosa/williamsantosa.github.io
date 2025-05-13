@@ -26,7 +26,7 @@
 				adopting stuffed animals.
 			</p>
 			<button
-				on:click={copyText}
+				onclick={copyText}
 				class="text-secondary-content btn btn-sm btn-ghost p-0 text-base underline"
 			>
 				williamwsantosa@gmail.com
