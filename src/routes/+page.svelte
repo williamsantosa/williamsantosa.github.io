@@ -232,7 +232,7 @@
 	<EmploymentCard
 		position="Master of Science in Computer Science"
 		company="UCLA"
-		date="September 2023 - June 2025"
+		date="September 2023 - May 2025"
 		description="Coursework includes software engineering, database systems/mining, artificial intelligence and life, and computer vision.
 Served as the Social & Wellness Director for the UCLA Association of Indonesian Americans during the 2024 school year."
 		imageUrl="/education/logo_UCLA_blue_boxed.png"
